@@ -27,8 +27,8 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.77, -72.69], // EDIT latitude, longitude to re-center map
-    zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    center: [-6.383965, 106.771708], // EDIT latitude, longitude to re-center map
+    zoom: 5,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
     scrollWheelZoom: false
   });
 
@@ -38,8 +38,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
+  L.marker([-6.383965, 106.771708]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup("Masjid Kubah Mas"); // EDIT pop-up text message
 
   </script>
 </body>
